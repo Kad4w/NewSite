@@ -1,0 +1,163 @@
+@font-face{
+	font-family: Cur;
+	src: url(font.ttf);
+}
+.main{
+	background: #363535;
+	font-family: Cur;
+	height: 3020px;
+}
+.main_links{
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 100%);
+	height: 100px;
+}
+.big_photo{
+	background: url(phone.webp);
+	background-size: 1900px 700px;
+	height: 700px;
+	margin-top: 70px;
+}
+.characters_main{
+	margin-top: 70px;
+	height: 450px;
+	display: flex;
+}
+.character_1{
+	margin-left: 175px;
+	background: url(Franklin.png);
+	background-size: 400px 400px;
+	height: 450px;
+	width: 400px;
+}
+.character_1:hover{
+	transform: scale(1.3);
+	transition: 0.5s;
+}
+.character_2{
+	margin-left: 175px;
+	background: url(Trevor.jpg);
+	background-size: 400px 400px;
+	height: 450px;
+	width: 400px;
+}
+.character_2:hover{
+	transform: scale(1.3);
+	transition: 0.5s;
+}
+.character_3{
+	margin-left: 175px;
+	background: url(Michael.webp);
+	background-size: 400px 400px;
+	height: 450px;
+	width: 400px;
+}
+.character_3:hover{
+	transform: scale(1.3);
+	transition: 0.5s;
+}
+.character_name{
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 100%);
+	height: 75px;
+	width: 400px;
+	margin-top: 375px;
+	text-align: center;
+}
+.history_main{
+	margin-top: 70px;
+	height: 400px;
+	display: flex;
+}
+.history{
+	margin-left: 175px;
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 100%);
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+}
+.history:hover{
+	transform: scale(1.3);
+	transition: 0.5s;
+}
+.text_1{
+	font-size: 21px;
+	color: white;
+}
+.text_2{
+	font-size: 12px;
+	color: white;
+}
+.text_3{
+	font-size: 27px;
+	color: white;
+}
+.name{
+	font-size: 30px;
+	color: white;
+	padding-top: 20px;
+}
+.button{
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	background: orange;
+	font-size: 20px;
+	margin-left: 150px;
+	margin-top: 20px;
+	font-family: cur;
+}
+.button:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.gun_main{
+	margin-top: 75px;
+	height: 500px;
+	display: flex;
+}
+.gun{
+	margin-left: 175px;
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 100%);
+	height: 500px;
+	width: 400px;
+	border-radius: 20px;
+}
+.gun:hover{
+	transform: scale(1.3);
+	transition: 0.5s;
+}
+.mkii{
+	height: 200px;
+	width: 400px;
+}
+.karabintext{
+	font-size: 14.2px;
+	color: white;
+}
+.drobtext{
+	font-size: 13.4px;
+	color: white;
+}
+.sniptext{
+	font-size: 14.8px;
+	color: white;
+}
+.texts{
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 100%);
+	height: 100px;
+	margin-top: 70px;
+	text-align: center;
+}
+.font{
+	font-size: 70px;
+	color: white;
+	padding-top: 15px;
+}
